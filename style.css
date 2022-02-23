@@ -49,7 +49,7 @@ body{
 .contact a{
     text-decoration: none;
     font-size: 1rem;
-    color: gray;
+    color: rgb(82, 78, 78);
     margin-bottom: 20px;
 }
 .open-class a:hover{
