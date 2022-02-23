@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gideon Roman', cursive;
+    width: 50%;
+    margin: auto;
+    background-color: #f0f0f0;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+}
+.container .head{
+    margin-top: 40px;    
+}
+.container .head h1{
+    font-size: 2.5rem;
+}
+.container .head p{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.container .head span{
+    color:cornflowerblue;
+    text-transform: uppercase;
+}
+.container .img img{
+    width: 20rem;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.contact{
+    margin: auto;
+    margin-top: 1.5rem;
+    width: 40%;
+    height: auto;
+   font-size: 1.5rem;
+    
+}
+.open-class a i{
+    padding: 5px;
+    color:cadetblue
+}
+.contact a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 20px;
+}
+.open-class a:hover{
+    color: yellowgreen;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.open-class a i:hover{
+color: yellowgreen;
+transition: .5s;
+font-size: 1.1rem;
+}
+
